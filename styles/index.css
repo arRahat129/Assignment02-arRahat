@@ -193,3 +193,40 @@
 .reason p {
     line-height: 24px;
 }
+
+.episodes-sec {
+    padding: 120px 200px;
+    margin: 0 auto;
+}
+
+.featured-episode-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured-episode-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0 auto 40px;
+}
+
+.episodes-container {
+    gap: 30px;
+}
+
+.episodes-container .card {
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0 0 0 0.2);
+    background-color: #250D44;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.episodes-container .card iframe {
+    border: none;
+}
+
+.episodes-container .card-details {
+    padding: 24px;
+}
