@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.default {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    margin: 0 auto;
+    padding: 0;
+
+    max-width: 1600px; /* given image herobg was 1600 px. So I thought all should be aligned on base of max 1600 w */
+    
+    background-color: rgba(26, 11, 46, 1);
+    color: white;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    font-weight: 600;
+    background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    color: white;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(145, 0, 248, 0.4);
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 200px;
+}
+
+.navbar h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.nav-heading .part2 {
+    color: #FB09B4; 
+    /* trying to figure out the text gradient. we used only bg gradient before. */
+    
+    /* color: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8); */
+}
+
+.navbar ul {
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 120%;
+    color: white;
+}
+
+.header-section-contents {
+    background-image: url(../images/hero-bg.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.contents-container {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.header-img-container {
+    background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 40px;
+    padding: 70px 75px;
+    border-radius: 50%;
+}
+
+.contents-container h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.contents-container .button-container {
+    margin-top: 24px;
+    gap: 8px;
+    justify-content: center;
+}
+
+.header-btn2 {
+    background: none;
+    color: #00FF88;
+    padding: 12.5px 20px;
+    border: 2px solid #00FF88;
+    border-radius: 20px;
+    font-weight: 600;
+}
