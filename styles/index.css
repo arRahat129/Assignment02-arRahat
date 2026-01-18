@@ -107,3 +107,45 @@
     border-radius: 20px;
     font-weight: 600;
 }
+
+.about-text-container {
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.about-sec-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-sec-description {
+    line-height: 30px;
+}
+
+.about-sec-devider {
+    margin: 80px auto;
+    max-width: 1200px;
+    border: 1px solid white;
+}
+
+.about-statistics-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto 120px;
+
+    text-align: center;
+}
+
+.component h1 {
+    font-size: 3rem;
+    color: #00FF88;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.component p {
+    line-height: 20px;
+}
