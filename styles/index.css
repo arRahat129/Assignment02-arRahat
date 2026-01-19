@@ -201,7 +201,7 @@
 
 .featured-episode-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 120px;
 }
 
 .featured-episode-container h1 {
@@ -216,7 +216,7 @@
 }
 
 .episodes-container .card {
-    max-width: 400px;
+    width: 400px;
     box-shadow: 0 4px 8px rgba(0 0 0 0.2);
     background-color: #250D44;
     border-radius: 30px;
@@ -229,4 +229,70 @@
 
 .episodes-container .card-details {
     padding: 24px;
+}
+
+.card-details h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card-details p {
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.card-details .duration {
+    color: #00FF88;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.meet-the-host h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.host-container {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0 0 0 0.2);
+    background-color: #250D44;
+    border-radius: 30px;
+    padding: 40px;
+    gap: 24px;
+}
+
+.host-details h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.host-details p {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.socials {
+    gap: 8px;
+    align-items: center;
+}
+
+.socials .social-platform {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-platform img {
+    
 }
