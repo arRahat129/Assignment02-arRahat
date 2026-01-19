@@ -31,7 +31,7 @@
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px) scale(1.03);
     box-shadow: 0 8px 20px rgba(145, 0, 248, 0.4);
 }
 
@@ -80,11 +80,25 @@
 
 .header-img-container {
     background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    box-shadow: 0 0 20px rgb(99, 76, 181);
     width: 200px;
     height: 200px;
     margin: 0 auto 40px;
     padding: 70px 75px;
     border-radius: 50%;
+
+    position: relative;
+}
+
+.mic-badge {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #00FF88;
+    box-shadow: 0 0 10px rgb(109, 181, 76);
+    color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
 }
 
 .contents-container h1 {
@@ -106,6 +120,11 @@
     border: 2px solid #00FF88;
     border-radius: 20px;
     font-weight: 600;
+}
+
+.header-btn2:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 248, 70, 0.313);
 }
 
 .about-text-container {
@@ -137,6 +156,15 @@
     margin: 0 auto 120px;
 
     text-align: center;
+}
+
+.component {
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.component:hover {
+    transform: translatex(5px);
+    box-shadow: 0 0 40px rgba(0, 170, 255, 0.303);
 }
 
 .component h1 {
@@ -175,6 +203,13 @@
     border-radius: 40px;
     padding: 40px;
     align-content: center;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reason:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(28, 9, 231, 0.15);
 }
 
 .span-2-row {
@@ -221,6 +256,12 @@
     background-color: #250D44;
     border-radius: 30px;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episodes-container .card:hover {
+    transform: translate(-5px);
+    box-shadow: 5px 5px 30px rgba(219, 219, 234, 0.212);
 }
 
 .episodes-container .card iframe {
@@ -264,6 +305,12 @@
     border-radius: 30px;
     padding: 40px;
     gap: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.host-container:hover {
+    transform: translate(5px);
+    box-shadow: 0 0px 40px rgba(234, 0, 255, 0.623);
 }
 
 .host-details h3 {
@@ -291,6 +338,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, border 0.3s ease;
+}
+
+.social-platform:hover {
+    background: white;
+    transform: scale(1.1);
+    border: 1px solid rgb(240, 0, 136);
 }
 
 footer {
@@ -315,6 +370,18 @@ footer {
     font-weight: 500;
 
     margin-bottom: 34px;
+}
+
+.footer-social p {
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+    cursor: pointer;
+}
+
+.footer-social p:hover {
+    background: #250D44;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px white;
 }
 
 .copyright {
