@@ -52,11 +52,37 @@ header {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 0;
+
+    display: inline-block;
+    animation: textBounce 1s ease-in-out infinite;
+}
+
+@keyframes textBounce {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    25% {
+        transform: translateY(-8px) scale(1.05);
+    }
+
+    50% {
+        transform: translateY(0) scale(1);
+    }
+
+    75% {
+        transform: translateY(-4px) scale(1.02);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
 }
 
 .hamburger {
     display: none;
 }
+
 
 .nav-heading .part2,
 .footer-texts .pink-text {
@@ -93,7 +119,7 @@ header {
 
 .navbar ul li {
     transition: transform 0.3s ease,
-    text-shadow 0.3s ease;
+        text-shadow 0.3s ease;
 }
 
 .navbar ul li:hover {
@@ -691,8 +717,8 @@ footer {
         gap: 1.5rem;
     }
 
-    
-    
+
+
 
 
     .header-section-contents {
@@ -729,8 +755,8 @@ footer {
         font-size: 1.05rem;
     }
 
-    
-    
+
+
 
 
 
@@ -745,8 +771,8 @@ footer {
         margin-bottom: 80px;
     }
 
-    
-    
+
+
 
 
     .why-techwave {
@@ -769,8 +795,8 @@ footer {
         grid-row: span 1;
     }
 
-    
-    
+
+
 
     .episodes-sec {
         padding: 80px 40px;
@@ -785,8 +811,8 @@ footer {
         width: 320px;
     }
 
-   
-    
+
+
 
 
     .meet-the-host h1 {
@@ -798,8 +824,8 @@ footer {
         padding: 32px;
     }
 
-    
-    
+
+
 
 
     footer {
